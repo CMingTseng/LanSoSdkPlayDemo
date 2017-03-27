@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">视频播放测试</string>
+         <string name="message_granted">All permissions have been granted.</string>
+    <string name="message_denied">Permission \"%1$s\" has been denied.</string>
+    
+    
+    <string name="lansong_hint">杭州蓝松科技有限公司\n   专业的视频处理SDK开发团队.</string>
+	<string name="sdk_limit">当前SDK是我们视频播放版本,版本号:\"%1$s\" [商用版本]\n\n 欢迎您的测试评估.</string>
+	<string name="sdk_limit2">此演示demo，我们在SDK底层做了授权限制，有效时间为 \"%1$d\"年 \"%2$d\"月之前。请注意\n为了您更好的使用,希望您和我们合作取得授权后，永久使用。</string>
+	
+	
+	<string name="sdk_version">当前SDK是我们视频播放版本,版本号:\"%1$s\"，有效时间为 \"%2$d\"年 \"%3$d\"月之前。请注意\n。</string>
+	
+	
+	
+	<string name="file_not_exist">文件不存在</string>
+	<string name="videoplay_hint">视频小知识:\n当前是等比例的显示到屏幕上, 目的是保持视频的宽高比一致,视频不变形;\n\n 或许会导致分辨率小的画面被放大了,画面质量下降,这是正常情况,只是播放的界面事情,不影响视频本身</string>
+	
+	
+	<string name="videoplayer_function">自动识别软硬解,优先硬解播放;\n 前后台无缝切换;\n暂定,播放,进度条等常规播放器功能见VideoPlayer.java文件</string>
+		    
+	<string name="connect_us">联系我们:\n 杭州蓝松科技有限公司\n专业的视频处理SDK开发团队。\n 电话:0571-89052701 \n QQ:\t 1852600324 \n email:\tsupport@lansongtech.com \n 地址:\t杭州市余杭区运通网城软件园6栋428室.</string>
+</resources>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA500"
+    android:orientation="vertical" >
+    
+    
+  <LinearLayout 
+      android:id="@+id/id_main_select"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:orientation="horizontal">
+    
+         <Button
+             android:id="@+id/id_main_use_default_videobtn"
+             android:layout_width="0dip"
+             android:layout_weight="5"
+             android:layout_height="50dip"
+             android:background="@drawable/rect_button_bg"
+             android:text="使用默认演示视频"
+             />
+         <ImageView
+             android:id="@+id/id_main_select_video"
+             android:layout_width="0dip"
+             android:layout_weight="2"
+             android:layout_height="50dip"
+             android:src="@drawable/ic_menu_archive"
+             />
+	</LinearLayout>
+   
+    <TextView
+        android:layout_below="@id/id_main_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_main_tvvideo"
+	    android:textSize="18sp"/>
+    
+    
+  
+          <Button 
+              android:id="@+id/id_main_player"
+              android:layout_width="match_parent"
+              android:layout_height="48dip"
+              android:layout_centerInParent="true"
+              android:text="播放"
+              android:textColor="@color/red"
+              android:background="@drawable/button_btn_bg"/>
+            
+            
+             <TextView 
+                   android:id="@+id/id_main_texthint1"
+                   android:layout_below="@id/id_main_player"
+	              android:layout_width="match_parent"
+	              android:layout_height="wrap_content"
+	              android:layout_marginTop="30dip"
+	              android:background="@color/white"/>
+             
+              <TextView 
+                  android:layout_alignParentBottom="true"
+                  android:layout_marginBottom="10dip"
+	              android:layout_width="match_parent"
+	              android:layout_height="wrap_content"
+	              android:layout_marginTop="40dip"
+	              android:text="@string/connect_us"
+	              android:background="@color/white"/>
+</RelativeLayout>
